@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Header.css"
 import { ReactComponent as Logo } from '../../images/logo.svg';
 
@@ -8,8 +8,8 @@ export default function Header() {
     <header>
       <Logo className="logo"/>
       <nav>
-        <Link to="/">Accueil</Link>
-        <Link to="/about">A Propos</Link>
+        <NavLink to="/">Accueil</NavLink>
+        <NavLink to="/about">A Propos</NavLink>
       </nav>
     </header>
   );
