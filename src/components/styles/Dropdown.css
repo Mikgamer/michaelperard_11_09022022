@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"),
+    url("../../fonts/Montserrat/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/Montserrat-Medium.woff2") format("woff2"),
+    url("../../fonts/Montserrat/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dropdown {
+  width: 100%;
+  background: #f6f6f6;
+  border-radius: 5px;
+  color: #ff6060;
+}
+
+.dropdown > div {
+  padding: 15px 10px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.dropdown summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: inherit;
+  height: 30px;
+  border-radius: 5px;
+  background: #ff6060;
+  padding: 0 7px 0 10px;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.dropdown summary svg {
+  height: 9px;
+  width: auto;
+}
+
+.dropdown[open] summary svg {
+  transform: rotate(180deg);
+}
+
+@media (min-width: 900px) {
+  .dropdown {
+    width: 582px;
+    border-radius: 10px;
+  }
+
+  .dropdown > div {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .dropdown summary {
+    height: 52px;
+    border-radius: 10px;
+    padding: 0 12px 0 20px;
+    font-size: 18px;
+  }
+
+  .dropdown summary svg {
+    height: 16px;
+  }
+}

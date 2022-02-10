@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import Home from "../pages/Home/Home"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Home from "../pages/Home"
 
 export default function Router() {
   return (
@@ -19,11 +19,11 @@ export default function Router() {
 
 function Layout() {
   return (
-    <div>
+    <>
       <Header />
       <Outlet />
       <Footer />
-    </div>
+    </>
   );
 }
 

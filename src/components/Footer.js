@@ -1,6 +1,6 @@
-import * as React from "react";
-import "./Footer.css"
-import { ReactComponent as Logo } from '../../images/logo.svg';
+import * as React from "react"
+import "./styles/Footer.css"
+import { ReactComponent as Logo } from '../images/logo.svg'
 
 export default function Header() {
   return (

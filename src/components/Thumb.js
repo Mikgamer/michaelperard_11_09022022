@@ -1,5 +1,5 @@
-import * as React from "react";
-import "./Thumb.css"
+import * as React from "react"
+import "./styles/Thumb.css"
 
 export default function Thumb(props) {
   return (
