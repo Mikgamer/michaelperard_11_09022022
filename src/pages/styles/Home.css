@@ -2,7 +2,7 @@
   margin: 0 20px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1250px) {
   .home {
     margin: 0 100px;
   }

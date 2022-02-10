@@ -42,7 +42,7 @@
   font-size: 18px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1250px) {
   .thumb {
     width: 340px;
     height: 340px;

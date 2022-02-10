@@ -56,7 +56,15 @@
   transform: rotate(180deg);
 }
 
-@media (min-width: 900px) {
+.dropdown.large {
+  border-radius: 5px;
+}
+
+.dropdown.large summary {
+  border-radius: 5px;
+}
+
+@media (min-width: 1250px) {
   .dropdown {
     width: 582px;
     border-radius: 10px;
@@ -76,5 +84,19 @@
 
   .dropdown summary svg {
     height: 16px;
+  }
+
+  .dropdown.large {
+    width: 1024px;
+    font-size: 24px;
+  }
+
+  .dropdown.large > div {
+    font-size: 24px;
+  }
+
+  .dropdown.large summary {
+    height: 47px;
+    font-size: 24px;
   }
 }

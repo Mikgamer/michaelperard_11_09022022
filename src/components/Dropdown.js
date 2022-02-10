@@ -12,3 +12,14 @@ export default function Dropdown(props) {
     </details>
   );
 }
+
+export function DropdownLarge(props) {
+  return (
+    <details className="dropdown large">
+      <summary>{props.text}<Arrow /></summary>
+      <div>
+        {props.children}
+      </div>
+    </details>
+  );
+}

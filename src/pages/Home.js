@@ -2,7 +2,7 @@ import * as React from "react"
 import "./styles/Home.css"
 import Tag from "../components/Tag"
 import Thumb from "../components/Thumb"
-import Dropdown from "../components/Dropdown"
+import Dropdown, { DropdownLarge } from "../components/Dropdown"
 
 export default function Header() {
   return (
@@ -12,6 +12,7 @@ export default function Header() {
         <Tag value="Test3"/>
         <Thumb text="Titre de la location" />
         <Dropdown text="Exemple" >Example</Dropdown>
+        <DropdownLarge text="Exemple" >Example</DropdownLarge>
       </main>
   );
 }
