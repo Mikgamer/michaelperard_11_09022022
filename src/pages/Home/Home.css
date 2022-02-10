@@ -1,0 +1,9 @@
+.home {
+  margin: 0 20px;
+}
+
+@media (min-width: 900px) {
+  .home {
+    margin: 0 100px;
+  }
+}
