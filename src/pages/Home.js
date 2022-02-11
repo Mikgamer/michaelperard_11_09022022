@@ -3,6 +3,7 @@ import "./styles/Home.css"
 import Tag from "../components/Tag"
 import Thumb from "../components/Thumb"
 import Dropdown, { DropdownLarge } from "../components/Dropdown"
+import Slider from "../components/Slider";
 
 export default function Header() {
   return (
