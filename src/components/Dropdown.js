@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import "./styles/Dropdown.css"
 import { ReactComponent as Arrow } from '../images/arrow.svg'
 

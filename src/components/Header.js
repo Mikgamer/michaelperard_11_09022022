@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import { NavLink } from "react-router-dom"
 import "./styles/Header.css"
 import { ReactComponent as Logo } from '../images/logo.svg'
