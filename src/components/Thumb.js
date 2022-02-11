@@ -4,11 +4,11 @@ import "./styles/Thumb.css"
 
 export default function Thumb(props) {
   return (
-    <div className="thumb">
-      <img src={props.src || ""} alt={props.alt || ""}/>
+    <section className="thumb">
+      <img src={props.src} alt={props.text}/>
       <Link className="link" to={"/accommodation/"+props.id} draggable="false">
         <h2>{props.text}</h2>
       </Link>
-    </div>
+    </section>
   );
 }
