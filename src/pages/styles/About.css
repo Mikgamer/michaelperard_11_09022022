@@ -1,0 +1,40 @@
+.about {
+  margin-bottom: 40px;
+}
+
+.about .decoration {
+  height: 110px;
+  border-radius: 10px;
+  background: #ff6060;
+  overflow: hidden;
+  margin: 0 0 20px;
+}
+
+.about .decoration img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.about .dropdowns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (min-width: 1250px) {
+  .about .decoration {
+    height: 225px;
+    border-radius: 25px;
+    margin: 0 0 35px;
+  }
+
+  .about .dropdowns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+}

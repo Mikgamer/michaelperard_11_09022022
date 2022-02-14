@@ -1,9 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import React from "react"
+import ReactDOM from "react-dom"
+import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 import Home from "./pages/Home"
+import About from "./pages/About"
 
 import "./index.css";
 
@@ -23,7 +24,6 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-
 function Layout() {
   return (
     <>
@@ -31,14 +31,6 @@ function Layout() {
       <Outlet />
       <Footer />
     </>
-  );
-}
-
-function About() {
-  return (
-    <main>
-      <h2>About</h2>
-    </main>
   );
 }
 

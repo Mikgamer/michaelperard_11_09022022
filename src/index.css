@@ -28,6 +28,7 @@ body {
 
 main {
   margin: 0 20px;
+  min-height: calc(100vh - 210px);
 }
 
 @media (min-width: 1250px) {

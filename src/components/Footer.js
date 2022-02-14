@@ -2,7 +2,7 @@ import React from "react"
 import "./styles/Footer.css"
 import { ReactComponent as Logo } from '../images/logo.svg'
 
-export default function Header() {
+export default function Header() {  
   return (
     <footer>
       <Logo className="logo"/>
