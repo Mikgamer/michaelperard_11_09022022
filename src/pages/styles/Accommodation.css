@@ -1,9 +1,117 @@
-.accommodation .dropdowns {
+.accommodation {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ff6060;
+}
+
+.accommodation .carousel {
+  margin-bottom: 15px;
+}
+
+.accommodation h1,
+.accommodation h2 {
+  font-weight: inherit;
+  margin: 0;
+}
+
+.accommodation h1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.accommodation h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.accommodation .tags {
+  margin-bottom: 15px;
+}
+
+.accommodation .review {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row-reverse;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.accommodation .host {
+  display: flex;
+  align-items: center;
+}
+
+.accommodation .host .name {
+  font-size: 12px;
+  text-align: end;
+  margin-right: 10px;
+}
+
+.accommodation .host img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.accommodation .stars {
+  display: flex;
+  gap: 5px;
+}
+
+.accommodation svg {
+  height: 15px;
+  width: 15px;
 }
 
 .accommodation .star path {
   fill: #ff6060;
+}
+
+.accommodation .dropdowns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+  margin-bottom: 40px;
+}
+
+.accommodation .dropdown ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 1250px) {
+  .accommodation .carousel {
+    margin-bottom: 30px;
+  }
+
+  .accommodation h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+
+  .accommodation h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .accommodation .host .name {
+    font-size: 18px;
+  }
+
+  .accommodation .host img {
+    height: 64px;
+    width: 64px;
+  }
+
+  .accommodation .stars {
+    gap: 10px;
+  }
+
+  .accommodation svg {
+    height: 30px;
+    width: 30px;
+  }
 }

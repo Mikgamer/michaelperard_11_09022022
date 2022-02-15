@@ -1,8 +1,11 @@
 .dropdown {
   width: 100%;
-  background: #f6f6f6;
   border-radius: 5px;
   color: #ff6060;
+}
+
+.dropdown[open] {
+  background: #f6f6f6;
 }
 
 .dropdown > div {
@@ -29,6 +32,7 @@
   font-size: 13px;
   color: white;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .dropdown summary svg {

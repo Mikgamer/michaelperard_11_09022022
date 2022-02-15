@@ -22,6 +22,7 @@
   height: 100%;
   padding: 0;
   border: none;
+  cursor: pointer;
 }
 
 .carousel > button > svg {

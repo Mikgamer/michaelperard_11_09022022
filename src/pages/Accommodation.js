@@ -32,7 +32,7 @@ export default function Accommodation() {
       </div>
       <div className="review">
         <div className="host">
-          <span className="name">{accommodation.host.name}</span>
+          <span className="name">{accommodation.host.name.split(" ")[0]}<br />{accommodation.host.name.split(" ")[1]}</span>
           <img src={accommodation.host.picture} alt="" />
         </div>
         <div className="stars">
