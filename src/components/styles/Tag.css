@@ -2,8 +2,9 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 84px;
+  min-width: 84px;
   height: 18px;
+  padding: 0 10px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -11,12 +12,14 @@
   color: white;
   background: #ff6060;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 1250px) {
   .tag {
-    width: 115px;
+    min-width: 115px;
     height: 25px;
+    padding: 0 15px;
     font-size: 14px;
     border-radius: 10px;
   }

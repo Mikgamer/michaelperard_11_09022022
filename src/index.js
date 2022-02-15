@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Home from "./pages/Home"
 import About from "./pages/About"
+import Accommodation from "./pages/Accommodation"
 import NoMatch from "./pages/NoMatch"
 
 import "./index.css";
@@ -16,7 +17,7 @@ ReactDOM.render(
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="accommodation" element={<Accommodation />} />
+          <Route path="accommodation/:id" element={<Accommodation />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
@@ -32,13 +33,5 @@ function Layout() {
       <Outlet />
       <Footer />
     </>
-  );
-}
-
-function Accommodation() {
-  return (
-    <main>
-      <h2>Accommodation</h2>
-    </main>
   );
 }

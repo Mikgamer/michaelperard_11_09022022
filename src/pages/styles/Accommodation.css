@@ -1,0 +1,9 @@
+.accommodation .dropdowns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.accommodation .star path {
+  fill: #ff6060;
+}

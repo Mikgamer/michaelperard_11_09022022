@@ -1,13 +1,10 @@
 import React from "react"
 import "./styles/Home.css"
-import Tag from "../components/Tag"
 import Thumb from "../components/Thumb"
-import Dropdown, { DropdownLarge } from "../components/Dropdown"
-import Carousel from "../components/Carousel";
-import accommodations from "../data/logements.json";
+import accommodations from "../data/logements.json"
 import decorationImage from "../images/eric-muhr-P_XxsdVgtpQ-unsplash.jpg"
 
-export default function Header() {
+export default function Home() {
   return (
       <main className="home">
         <div className="decoration">
