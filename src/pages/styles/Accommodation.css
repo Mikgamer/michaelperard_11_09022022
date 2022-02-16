@@ -87,6 +87,16 @@
     margin-bottom: 30px;
   }
 
+  .accommodation .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .accommodation .review {
+    flex-direction: column;
+  }
+
   .accommodation h1 {
     font-size: 36px;
     margin-bottom: 0;

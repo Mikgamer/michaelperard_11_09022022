@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import "./styles/Carousel.css"
 import { ReactComponent as Arrow } from '../images/arrow.svg'
 
@@ -6,9 +6,9 @@ export default function Carousel(props) {
   const [carousel, setCarousel] = useState(0);
 
   // Use images for items
-  let slides;
+  let slides = props.children;
 
-  if (Array.isArray(props.children)) {
+  if (Array.isArray(props.children) && props.children.length > 1) {
     slides = props.children[carousel]
     // If props.children is an array, it mean there is multiple elements, then a navigation is shown 
     slides = <>
