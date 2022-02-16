@@ -13,13 +13,14 @@ export default function Accommodation() {
   const accommodation = accommodations.find(accommodation => accommodation.id === id);
   window.scrollTo(0, 0);
   if (accommodation === undefined) { return <NoMatch /> }
+  const pictures = accommodation.pictures.map((picture, index) => 
+    <img src={picture} alt="" key={index} />
+  )
   return (
     <main className="accommodation">
       
       <Carousel>
-        {accommodation.pictures.map((picture, index) => 
-          <img src={picture} alt="" key={index} />
-        )}
+        {pictures}
       </Carousel>
 
       <div className="flex">
